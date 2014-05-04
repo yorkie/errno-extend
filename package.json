@@ -1,6 +1,6 @@
 {
   "name": "errno-extend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Error extension for v8",
   "main": "index.js",
   "scripts": {

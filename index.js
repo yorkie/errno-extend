@@ -21,4 +21,5 @@ module.exports = {
   UnknowMethodError: function(val) {
     return new Error('unknown method: '+val);
   }
+  
 };
