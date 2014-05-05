@@ -19,7 +19,20 @@ module.exports = {
    * unknown method error
    */
   UnknowMethodError: function(val) {
-    return new Error('unknown method: '+val);
+    if (val)
+      return new Error('unknown method: '+val);
+    else
+      return new Error('unknown method');
+  },
+
+  /*
+   * Not found error
+   */
+  NotFoundError: function(val) {
+    if (val)
+      return new Error('not found for '+val);
+    else
+      return new Error('not found');
   }
   
 };

@@ -16,6 +16,8 @@ $ npm install errno-extent
 
 * `UnknowMethodError(name)`: Commonly used in HTTP handler.
 
+* `NotFoundError(name)`: Not found for `name` specified.
+
 NB: TO BE COUTINUE... :)
 
 ### License
