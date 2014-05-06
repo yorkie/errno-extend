@@ -33,6 +33,16 @@ module.exports = {
       return new Error('not found for '+val);
     else
       return new Error('not found');
+  },
+
+  /*
+   * Required error
+   */
+  RequiredError: function(val) {
+    if (!val)
+      return new Error('unknown module required');
+    else
+      return new Error(util.format('%j required', val));
   }
   
 };

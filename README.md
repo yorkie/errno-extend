@@ -18,6 +18,8 @@ $ npm install errno-extent
 
 * `NotFoundError(name)`: Not found for `name` specified.
 
+* `RequiredError(name)`: Requirements missed error, name might be array or object, sure could be a string.
+
 NB: TO BE COUTINUE... :)
 
 ### License
